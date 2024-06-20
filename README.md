@@ -4,9 +4,7 @@ This is a C++ library written for developing experiments for energy-based Hopfie
 library primarily because python is slow to simulate experiments for modern versions of Hopfield Networks that have
 very high memory capacity (~ a million memories). The library is written using Pytorch C++ for GPU and CPU acceleration. 
 
-# Installation
-
-## Prerequisites
+# Prerequisites
 
 The following libraries are required prior to build EDEN.
 
@@ -14,6 +12,10 @@ The following libraries are required prior to build EDEN.
 - `progressbar` - for displaying progressbar
 - `libtorch` - for hardware acceleration
 - `matplotplusplus` - for plotting diagnostics
+
+make sure `matplotplusplus` is downloaded to the main folder prior to building.
+
+# Installation
 
 The library can be configured and build by running the following commands from the build directory.
 
