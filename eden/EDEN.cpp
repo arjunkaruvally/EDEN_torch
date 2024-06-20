@@ -44,7 +44,7 @@ EDEN::EDEN(int n_neurons, int n_memories, int n_sequences, float alpha_s, float 
 //                                true)*2-1).to(torch::kFloat).reshape({this->d,
 //                                                                      this->n});
 
-    // define the phixi matrix TODO
+    // define the phixi matrix
     this->phixi = this->xi.clone();
     this->phixi = at::roll(this->phixi, 1, r);
 }
